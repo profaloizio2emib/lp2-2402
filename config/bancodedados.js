@@ -12,6 +12,6 @@ const modelo = mongoose.Schema({
     idade:String
 })
 
-const alunos = mongoose.model('modelo',alunos)
+const alunos = mongoose.model('alunos',modelo)
 
 module.exports = {conexao,alunos}
